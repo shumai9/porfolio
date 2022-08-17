@@ -1,0 +1,77 @@
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    background: transparent;
+    min-width: 20rem;
+    background: url(https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .container {
+    background: #ffffffc7;
+  }
+  .hero {
+    height:25rem;
+    overflow:hidden;
+  }
+  .tag {
+      text-align: center;
+      padding: 1rem;
+      margin: 20%;
+      background:radial-gradient(#cbfffd,#d2f7ff,transparent);
+      box-shadow: 0rem 0rem 12rem 9rem #fffdfde0;
+      border-radius: 0.51rem;
+  }
+  .tag h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .grid {
+    display: flex;
+  }
+  .card {
+    margin: 0.5rem;
+    flex: 1;
+  }
+  footer {
+    background: linear-gradient(transparent, black);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 15rem;
+    width: 100%;
+    color: white;
+  }
+
+  .footer {
+    background:transparent;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  div .links {
+    margin-top: 15%;
+    text-align: center;
+  }
+
+  div .links span {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+  @media all and (max-width: 550px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 0 0.6rem;
+    }
+  }

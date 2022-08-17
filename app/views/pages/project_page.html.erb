@@ -1,0 +1,17 @@
+<main>
+  <div class="card img-hero">
+    <%= image_tag(@base + @images.first, :class => "hero")%>
+  </div>
+  <div class="grid">
+    <%  @images.each do |img| %>
+      <div class="card" style="width: 18rem;">
+        <%= image_tag(@base + img + @images.last, :class =>"card-img-top" )%>
+        <div class="card-body">
+          <h3 class="title"></h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <%= link_to 'Viste site', "#" %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</main>
