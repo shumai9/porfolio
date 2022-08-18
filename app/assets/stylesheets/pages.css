@@ -9,22 +9,23 @@
     height: 100%;
     overflow: hidden;
   }
-
   .container {
     background: #ffffffc7;
   }
   .hero {
-    height:25rem;
-    overflow:hidden;
+    height: 33rem;
+    overflow: hidden;
+    padding: 0 5rem;
+    min-width: 500px;
   }
   .tag {
-      text-align: center;
-      padding: 1rem;
-      margin: 20%;
-      background:radial-gradient(#cbfffd,#d2f7ff,transparent);
-      box-shadow: 0rem 0rem 12rem 9rem #fffdfde0;
-      border-radius: 0.51rem;
-  }
+    text-align: center;
+    padding: 1rem;
+    margin: 20%;
+    background:radial-gradient(#cbfffd,#d2f7ff,transparent);
+    box-shadow: 0rem 0rem 12rem 9rem #fffdfde0;
+    border-radius: 0.51rem;
+}
   .tag h3 {
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -38,31 +39,26 @@
     margin: 0.5rem;
     flex: 1;
   }
-  footer {
+  .footer {
     background: linear-gradient(transparent, black);
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    height: 15rem;
     width: 100%;
     color: white;
-  }
-
-  .footer {
-    background:transparent;
-    position:relative;
-    bottom: 0;
     width: 100%;
   }
 
-  div .links {
-    margin-top: 15%;
-    text-align: center;
-  }
-
-  div .links span {
+  .footer .link span {
+    display: inline;
     padding: 1rem;
     margin: 1rem;
+  }
+  .footer .link {
+    display: inline;
+  }
+  footer {
+    text-align: center;
   }
 
   .copyright {
